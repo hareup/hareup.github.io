@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>제목없는 지도</name>
+    <description/>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>제목없는 레이어</name>
+      <Placemark>
+        <name>선 3</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            126.8396922,35.2028413,0
+            126.8527385,35.1933026,0
+            126.8685314,35.1921803,0
+            126.8786594,35.1864284,0
+            126.9217464,35.1820791,0
+            126.9308444,35.1928818,0
+            126.9409725,35.1833418,0
+            126.9382259,35.1683283,0
+            126.9397708,35.1491012,0
+            126.9397708,35.1204627,0
+            126.9265529,35.1166716,0
+            126.8939372,35.110493,0
+            126.8637248,35.1199011,0
+            126.8314525,35.1308523,0
+            126.8309375,35.1483994,0
+            126.826646,35.165662,0
+            126.8491336,35.1746427,0
+            126.8717929,35.1655217,0
+            126.8875858,35.1509259,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
